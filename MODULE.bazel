@@ -1,0 +1,32 @@
+module(
+    name = "hessian2-codec",
+    version = "0.0.0",
+    repo_name = "com_alibaba_hessian2_codec",
+)
+
+bazel_dep(
+    name = "bazel_skylib",
+    version = "1.4.1",
+)
+bazel_dep(
+    name = "abseil-cpp",
+    version = "20220623.1",
+    repo_name = "com_google_absl",
+)
+bazel_dep(
+    name = "googletest",
+    version = "1.11.0",
+    repo_name = "com_google_googletest",
+)
+bazel_dep(
+    name = "platforms",
+    version = "0.0.8",
+)
+# -- bazel_dep definitions -- #
+
+non_module_dependencies = use_extension("//:extensions.bzl", "non_module_dependencies")
+use_repo(
+    non_module_dependencies,
+    "com_github_fmtlib_fmt",
+    "hedron_compile_commands",
+)

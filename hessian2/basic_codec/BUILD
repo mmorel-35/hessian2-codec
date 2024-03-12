@@ -24,7 +24,7 @@ cc_test(
         ":bool_codec_lib",
         "//hessian2/test_framework:decoder_test_framework_lib",
         "//hessian2/test_framework:encoder_test_framework_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -50,7 +50,7 @@ cc_test(
         ":byte_codec_lib",
         "//hessian2/test_framework:decoder_test_framework_lib",
         "//hessian2/test_framework:encoder_test_framework_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -76,7 +76,7 @@ cc_test(
         ":date_codec_lib",
         "//hessian2/test_framework:decoder_test_framework_lib",
         "//hessian2/test_framework:encoder_test_framework_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -102,7 +102,7 @@ cc_test(
         ":number_codec_lib",
         "//hessian2/test_framework:decoder_test_framework_lib",
         "//hessian2/test_framework:encoder_test_framework_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -128,7 +128,7 @@ cc_test(
         ":string_codec_lib",
         "//hessian2/test_framework:decoder_test_framework_lib",
         "//hessian2/test_framework:encoder_test_framework_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -168,7 +168,7 @@ cc_test(
     copts = TEST_COPTS,
     deps = [
         ":type_ref_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -194,7 +194,7 @@ cc_test(
     copts = TEST_COPTS,
     deps = [
         ":def_ref_codec_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -250,7 +250,7 @@ cc_test(
     copts = TEST_COPTS,
     deps = [
         ":object_codec_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -265,7 +265,7 @@ cc_test(
         "//hessian2:object_lib",
         "//hessian2/test_framework:decoder_test_framework_lib",
         "//hessian2/test_framework:encoder_test_framework_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -280,7 +280,7 @@ cc_test(
         "//hessian2:object_lib",
         "//hessian2/test_framework:decoder_test_framework_lib",
         "//hessian2/test_framework:encoder_test_framework_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -295,6 +295,6 @@ cc_test(
         "//hessian2:object_lib",
         "//hessian2/test_framework:decoder_test_framework_lib",
         "//hessian2/test_framework:encoder_test_framework_lib",
-        "@com_google_googletest//:gtest_main",
+        "@com_google_googletest//:gtest",
     ],
 )
